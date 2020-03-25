@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=no">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="/images/ico.png" type="image/png">   
+    <script>
+        function go(loc) {
+       document.getElementById('iFr').src = loc;
+     }
+   </script>
+    <title>Radio_txtClick</title>
+</head>
+<body>
+    <div class="mainBox">
+    <span class="back"></span>
+    <section id="container">
+        <h2>Radio Text OnClick Check</h2>
+        <iframe id="iFr" src="AD.html" frameborder="0"></iframe><br><br>
+        <span>
+            <label>
+                <p>AD</p>
+                <input type="radio" name="radio" id="radio" checked="checked" onclick="go('/AD.html')">
+            </label>
+            <label>
+                <p>DD</p>
+                <input type="radio" name="radio" id="radio" onclick="go('/DD.html')">
+            </label>
+        </span>
+    </section>
+</div>
+</body>
+</html>
