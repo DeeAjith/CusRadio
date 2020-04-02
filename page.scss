@@ -1,0 +1,32 @@
+body {
+    background-color: Linen;
+    font-family: 'Poppins';
+
+    $mobile:400px;
+
+    $mobile:420px;
+    @mixin mobile {
+        @media only screen and (max-width:400px) {
+            @content;
+        }
+    }
+        h1 {
+            text-align: center;
+            @include mobile{
+                font-size: 5rem;
+            }
+        }
+        
+        p {
+            font-size: 80%;
+            padding: 20px;
+            letter-spacing: .8;
+            line-height: 1.8;
+            text-align: justify;
+
+            @include mobile{
+                font-size: 3rem;
+            }
+        }
+}
+
