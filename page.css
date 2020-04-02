@@ -1,0 +1,29 @@
+body {
+  background-color: Linen;
+  font-family: 'Poppins';
+}
+
+body h1 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 400px) {
+  body h1 {
+    font-size: 5rem;
+  }
+}
+
+body p {
+  font-size: 80%;
+  padding: 20px;
+  letter-spacing: .8;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 400px) {
+  body p {
+    font-size: 3rem;
+  }
+}
+/*# sourceMappingURL=page.css.map */

@@ -28,6 +28,13 @@ span.back {
           box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.63);
 }
 
+@media only screen and (max-width: 420px) {
+  span.back {
+    width: 70%;
+    height: 55%;
+  }
+}
+
 #container {
   position: absolute;
   top: 50%;
@@ -43,12 +50,30 @@ span.back {
   font-size: 2em;
 }
 
+@media only screen and (max-width: 420px) {
+  #container h2 {
+    font-size: 5em;
+  }
+}
+
 #container iframe {
   width: 50em;
   height: 15em;
   border-radius: 20px;
   -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.63);
           box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.63);
+}
+
+@media only screen and (max-width: 420px) {
+  #container iframe {
+    position: relative;
+    width: 100rem;
+    height: 40rem;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
 }
 
 #container span {
@@ -59,6 +84,17 @@ span.back {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 420px) {
+  #container span {
+    font-size: 5rem;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
 }
 
 #container label {
@@ -76,6 +112,12 @@ span.back {
   color: #ddd;
   -webkit-box-shadow: 5px 5px 10px #0197d3;
           box-shadow: 5px 5px 10px #0197d3;
+}
+
+@media only screen and (max-width: 420px) {
+  #container label p {
+    width: 2em;
+  }
 }
 
 #container input {
