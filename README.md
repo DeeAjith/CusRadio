@@ -1,3 +1,3 @@
 # CusRadio
--CustomRadio to change iFrame Singlepage-
-demo[http://deeajith.github.io/CusRadio/]
+*CustomRadio to change iFrame Singlepage*
+demo[url:http://deeajith.github.io/CusRadio/]
